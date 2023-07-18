@@ -29,15 +29,6 @@ class LinkedList {
     return currentNode
   }
 
-  find(idx) {
-    let currentNode = this.head;
-    while(currentNode.next !== null) {
-      currentNode = currentNode.next
-    }
-    return currentNode;
-  }
-
-
   /** push(val): add new value to end of list. */
 
   push(val) {
